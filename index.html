@@ -1,5 +1,175 @@
-<!--<h1>Hello! This is zwj-tq' github.</h1>
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			html,body{
+				height: 100%;
+			}
+			body{
+				margin: 0;
+				padding: 0;
+				font-family: sans-serif;
+				text-align: center;
+				color: #fff;
+				overflow: hidden;
+				position: relative;
+			}
+			article{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				box-sizing: border-box;
+				transition: all 1s ease-in-out;
+				top: 0;
+			}
+			img{
+				width: 25%;
+			}
+			#tablet{
+				background: #4ac4aa;
+				left: 0;
+				top: 0;
+			}
+			#wifi{
+				background: #ea5634;
+				left: 100%;
+				top: 0;
+			}
+			#notice{
+				background: #399;
+				left: 100%;
+				top: 0
+			}
+			#readability{
+				background: #14856D;
+				left: 0%;
+				top: 100%
+			}
+			h1{
+				font-size: 4em;
+				border-bottom: 1px solid rgba(255,255,255,0.2);
+				padding: 10px;
+			}
+			p{
+				color: rgba(255,255,255,0.8);
+				margin-bottom: 30px;
+			}
+			a{
+				color: #FFFFFF;
+				font-size: 1.5em;
+				padding: 5px 50px;
+				border: 1px solid #FFFFFF;
+				border-radius: 4px;
+				text-decoration: none;
+			}
+			#tablet.move1{
+				left: -100%;
+				top: 0;
+			}
+			#wifi.move1{
+				left: 0;
+				top: 0;
+			}
+			
+			#wifi.move2{
+				left: -100%;
+				top: 0;
+			}
+			#notice.move2{
+				left: 0;
+				top: 0;
+			}
+			
+			#tablet.move3{
+				left: 0;
+				top: 100%;
+			}
+			#notice.move3{
+				left: 0%;
+				top: -100%;
+			}
+			#readability.move3{
+				left: 0;
+				top: 0;
+			}
+			#tablet.move4{
+				left: 0;
+				top: 0;
+			}
+			#readability.move4{
+				left: 0;
+				top: -100%;
+			}
+		</style>
+	</head>
+
+	<body>
+		<article id="tablet">
+			<img src="img/Tablet.png" alt="tablet" />
+			<h1>Tablet</h1>
+			<p>qwertyuiopasdfghjklzxcvbnm</p>
+			<a href="#wifi">Next</a>
+		</article>
+		<article id="wifi">
+			<img src="img/WIFI.png" alt="wifi" />
+			<h1>Wifi</h1>
+			<p>qwertyuiopasdfghjklzxcvbnm</p>
+			<a href="#notice">Next</a>
+		</article>
+		<article id="notice">
+			<img src="img/公告管理.png" alt="notice" />
+			<h1>Notice</h1>
+			<p>qwertyuiopasdfghjklzxcvbnm</p>
+			<a href="#readability">Next</a>
+		</article>
+		<article id="readability">
+			<img src="img/readability.png" alt="notice" />
+			<h1>Readability</h1>
+			<p>qwertyuiopasdfghjklzxcvbnm</p>
+			<a href="#tablet">Next</a>
+		</article>
+	</body>
+	<script src="jquery-2.1.4.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#tablet').click(function(e){
+				e.preventDefault();
+				$('#tablet').toggleClass('move1');
+				$('#wifi').toggleClass('move1');
+			});
+		});
+		
+		$(document).ready(function(){
+			$('#wifi').click(function(e){
+				e.preventDefault();
+				$('#wifi').toggleClass('move2');
+				$('#notice').toggleClass('move2');
+			});
+		});
+		
+		$(document).ready(function(){
+			$('#notice').click(function(e){
+				e.preventDefault();
+				$('#tablet').toggleClass('move3');
+				$('#notice').toggleClass('move3');
+				$('#readability').toggleClass('move3');
+			});
+		});
+		
+		$(document).ready(function(){
+			$('#readability').click(function(e){
+				e.preventDefault();
+				$('#tablet').toggleClass('move4');
+				$('#readability').toggleClass('move4');
+			});
+		});
+	</script>
+</html>
+<h1>Hello! This is zwj-tq' github.</h1>
 <p>你好，我是天晴，这是我的个人网站。</p>
-<p>你可以加我qq：1106763138，来联系我哦~</p>-->
+<p>你可以加我qq：1106763138，来联系我哦~</p>
 <h1 align="center">伟毅牛逼！！</h1>
-<!--<a href="https://www.bing.com">去必应逛逛吧</a>-->
+<a href="https://www.bing.com">去必应逛逛吧</a>
